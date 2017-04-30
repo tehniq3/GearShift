@@ -77,8 +77,8 @@ else
 //if (digitalRead(17) == LOW) setDigit(0);  // reverse
 if (digitalRead(17) == LOW)
 {
-if (clipire%2 == 1) setDigit(0);  // parking
-else setDigit(10);  
+if (clipire%2 == 1) setDigit(0);  // on
+else setDigit(10);                // off
 }
 else
 setDigit(10);  // display off
